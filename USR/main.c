@@ -17,6 +17,12 @@ char WIFI_Pass[20] = "Segotech@301";   //WIFIÃÜÂë£¬ÎªÁËµ÷ÊÔ·½±ã£¬ÕâÎ»ÖÃÖ±½ÓĞ´ÁËÖ
 u8 RTC_TimeCheck_flag = 0;  //RTC¼Ä´æÆ÷Ğ£¶Ô±êÖ¾£¬0±íÊ¾ÒÑĞ£¶Ô£»1±íÊ¾Ã»ÓĞĞ£¶Ô
 u8 ESP8285_WIFIConnect_Flag;  //ESP8285ÍøÂçÁ¬½Ó±êÖ¾£¬1³É¹¦£»0Ê§°Ü
 
+
+
+
+fhfh
+
+
 void LED_Configuration(void)
 {
 	GPIO_InitTypeDef    GPIO_InitStructure;
